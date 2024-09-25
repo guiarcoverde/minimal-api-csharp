@@ -1,7 +1,7 @@
 ﻿namespace MinimalApi.Domain.Dto;
 
-public class LoginDTO
+public record Login
 {
     public string Email { get; set; } = default!;
-    public string Senha { get; set; } = default!;
+    public string Password { get; set; } = default!;
 }
